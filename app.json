@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "bloomi",
+    "scheme": "bloomi",
     "slug": "bloomi",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +22,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vagabondi.bloomi"
     },
     "web": {
+      "bundler": "metro",
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e92dee4f-7f15-42af-9fbe-c3fd5eaf6896"
+      }
+    },
+    "owner": "vagabondi"
   }
 }
